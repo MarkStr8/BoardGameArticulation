@@ -1,0 +1,251 @@
+{
+	"textures": [
+		{
+			"image": "MonkeyBoardGame.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1802,
+				"h": 1605
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Board.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1800,
+						"h": 1200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1800,
+						"h": 1200
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1800,
+						"h": 1200
+					}
+				},
+				{
+					"filename": "Board_Small.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 450,
+						"h": 300
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 450,
+						"h": 300
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 450,
+						"h": 300
+					}
+				},
+				{
+					"filename": "CardTop1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 330,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 316,
+						"h": 206
+					},
+					"frame": {
+						"x": 453,
+						"y": 1203,
+						"w": 316,
+						"h": 206
+					}
+				},
+				{
+					"filename": "GP1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 150,
+						"h": 192
+					},
+					"frame": {
+						"x": 453,
+						"y": 1411,
+						"w": 150,
+						"h": 192
+					}
+				},
+				{
+					"filename": "GP4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 150,
+						"h": 192
+					},
+					"frame": {
+						"x": 605,
+						"y": 1411,
+						"w": 150,
+						"h": 192
+					}
+				},
+				{
+					"filename": "CardTop2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 330,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 316,
+						"h": 206
+					},
+					"frame": {
+						"x": 771,
+						"y": 1203,
+						"w": 316,
+						"h": 206
+					}
+				},
+				{
+					"filename": "CardTop3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 330,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 316,
+						"h": 206
+					},
+					"frame": {
+						"x": 1089,
+						"y": 1203,
+						"w": 316,
+						"h": 206
+					}
+				},
+				{
+					"filename": "pieceBackground.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 151,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 151,
+						"h": 200
+					},
+					"frame": {
+						"x": 1407,
+						"y": 1203,
+						"w": 151,
+						"h": 200
+					}
+				},
+				{
+					"filename": "GP3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 1,
+						"w": 110,
+						"h": 199
+					},
+					"frame": {
+						"x": 1407,
+						"y": 1405,
+						"w": 110,
+						"h": 199
+					}
+				},
+				{
+					"filename": "GP2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 1,
+						"w": 96,
+						"h": 199
+					},
+					"frame": {
+						"x": 1519,
+						"y": 1405,
+						"w": 96,
+						"h": 199
+					}
+				},
+				{
+					"filename": "GP5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 149,
+						"h": 200
+					},
+					"frame": {
+						"x": 1560,
+						"y": 1203,
+						"w": 149,
+						"h": 200
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:638950e6d6f2497108613528d7088622:c40484a25e0d635a09827cf7b56ccda6:76862a561c6837473d6059a742fa278a$"
+	}
+}

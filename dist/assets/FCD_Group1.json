@@ -1,0 +1,608 @@
+{
+	"textures": [
+		{
+			"image": "FCD_Group1.jpg",
+			"format": "RGB888",
+			"size": {
+				"w": 1922,
+				"h": 1990
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "bar.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 400
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 400,
+						"h": 400
+					}
+				},
+				{
+					"filename": "beep.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 400
+					},
+					"frame": {
+						"x": 403,
+						"y": 1,
+						"w": 400,
+						"h": 400
+					}
+				},
+				{
+					"filename": "bite.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 400
+					},
+					"frame": {
+						"x": 805,
+						"y": 1,
+						"w": 400,
+						"h": 400
+					}
+				},
+				{
+					"filename": "boo.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 400
+					},
+					"frame": {
+						"x": 1207,
+						"y": 1,
+						"w": 400,
+						"h": 400
+					}
+				},
+				{
+					"filename": "two.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 312,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 312,
+						"h": 400
+					},
+					"frame": {
+						"x": 1609,
+						"y": 1,
+						"w": 312,
+						"h": 400
+					}
+				},
+				{
+					"filename": "buy.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 400
+					},
+					"frame": {
+						"x": 1,
+						"y": 403,
+						"w": 400,
+						"h": 400
+					}
+				},
+				{
+					"filename": "date.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 400
+					},
+					"frame": {
+						"x": 1,
+						"y": 805,
+						"w": 400,
+						"h": 400
+					}
+				},
+				{
+					"filename": "day.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 400
+					},
+					"frame": {
+						"x": 1,
+						"y": 1207,
+						"w": 400,
+						"h": 400
+					}
+				},
+				{
+					"filename": "tea.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 377
+					},
+					"frame": {
+						"x": 1,
+						"y": 1609,
+						"w": 400,
+						"h": 377
+					}
+				},
+				{
+					"filename": "toe.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 400
+					},
+					"frame": {
+						"x": 403,
+						"y": 403,
+						"w": 400,
+						"h": 400
+					}
+				},
+				{
+					"filename": "toast.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 392
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 392
+					},
+					"frame": {
+						"x": 805,
+						"y": 403,
+						"w": 400,
+						"h": 392
+					}
+				},
+				{
+					"filename": "bee.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 313
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 313
+					},
+					"frame": {
+						"x": 1207,
+						"y": 403,
+						"w": 400,
+						"h": 313
+					}
+				},
+				{
+					"filename": "keep.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 266,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 266,
+						"h": 400
+					},
+					"frame": {
+						"x": 1609,
+						"y": 403,
+						"w": 266,
+						"h": 400
+					}
+				},
+				{
+					"filename": "bark.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 301
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 301
+					},
+					"frame": {
+						"x": 1207,
+						"y": 718,
+						"w": 400,
+						"h": 301
+					}
+				},
+				{
+					"filename": "toot.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 300
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 300
+					},
+					"frame": {
+						"x": 805,
+						"y": 797,
+						"w": 400,
+						"h": 300
+					}
+				},
+				{
+					"filename": "pipe.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 281
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 281
+					},
+					"frame": {
+						"x": 403,
+						"y": 805,
+						"w": 400,
+						"h": 281
+					}
+				},
+				{
+					"filename": "boot.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 277
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 277
+					},
+					"frame": {
+						"x": 403,
+						"y": 1088,
+						"w": 400,
+						"h": 277
+					}
+				},
+				{
+					"filename": "see.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 265,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 265,
+						"h": 400
+					},
+					"frame": {
+						"x": 1609,
+						"y": 805,
+						"w": 265,
+						"h": 400
+					}
+				},
+				{
+					"filename": "key.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 276
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 276
+					},
+					"frame": {
+						"x": 1207,
+						"y": 1021,
+						"w": 400,
+						"h": 276
+					}
+				},
+				{
+					"filename": "toad.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 258
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 258
+					},
+					"frame": {
+						"x": 805,
+						"y": 1099,
+						"w": 400,
+						"h": 258
+					}
+				},
+				{
+					"filename": "bow.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 376,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 376,
+						"h": 400
+					},
+					"frame": {
+						"x": 403,
+						"y": 1367,
+						"w": 376,
+						"h": 400
+					}
+				},
+				{
+					"filename": "pine.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 216
+					},
+					"frame": {
+						"x": 403,
+						"y": 1769,
+						"w": 400,
+						"h": 216
+					}
+				},
+				{
+					"filename": "team.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 326,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 326,
+						"h": 400
+					},
+					"frame": {
+						"x": 781,
+						"y": 1367,
+						"w": 326,
+						"h": 400
+					}
+				},
+				{
+					"filename": "pie.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 215
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 215
+					},
+					"frame": {
+						"x": 805,
+						"y": 1769,
+						"w": 400,
+						"h": 215
+					}
+				},
+				{
+					"filename": "time.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 400
+					},
+					"frame": {
+						"x": 1109,
+						"y": 1359,
+						"w": 320,
+						"h": 400
+					}
+				},
+				{
+					"filename": "boat.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 228
+					},
+					"frame": {
+						"x": 1207,
+						"y": 1761,
+						"w": 400,
+						"h": 228
+					}
+				},
+				{
+					"filename": "tie.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 239
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 239
+					},
+					"frame": {
+						"x": 1431,
+						"y": 1299,
+						"w": 400,
+						"h": 239
+					}
+				},
+				{
+					"filename": "seed.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 208
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 208
+					},
+					"frame": {
+						"x": 1431,
+						"y": 1540,
+						"w": 400,
+						"h": 208
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:7c6f073d4386c8d8eceae7ac88c98bd4:23caba282c4a62f00263fb7521c68e7b:73ce7236a8566f630186693e068a0b3d$"
+	}
+}
