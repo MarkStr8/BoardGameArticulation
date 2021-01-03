@@ -16,6 +16,9 @@ export default class PlayGame extends Phaser.Scene {
 
     private cardCount: number;
 
+    private pieceDepth:number;
+    //private dragObj: any;
+
 
     init(data){
         this.spriteSheet = data.spriteSheet;
@@ -29,6 +32,7 @@ export default class PlayGame extends Phaser.Scene {
     preload ()
     {
         this.load.multiatlas("FCD_Group1", "assets/FCD_Group1.json", "assets");
+        this.load.multiatlas("FCD_Group2", "assets/FCD_Group2.json", "assets");
     }
 
     create ()
@@ -36,32 +40,18 @@ export default class PlayGame extends Phaser.Scene {
 
 
         var FCD_group1: string[] =['bar/bark', 'bee/beep', 'buy/bite', 'boo/boot', 'bow/boat', 'day/date', 'key/keep', 'pie/pine', 'see/seed', 'pie/pipe', 'tea/team', 'tie/time', 'toe/toad', 'toe/toast', 'two/toot'];
+        var FCD_group1: string[] =['fee/feed', 'low/load', 'may/make', 'me/meat', 'my/mine', 'moo/mood', 'no/nose', 'pea/peep', 'she/sheep', 'we/weak', 'new/noon'];
+
 
         this.WordPairs = FCD_group1;
 
         console.log("this.selectedPieces = " + this.selectedPieces);
 
-        const board = this.add.sprite(400, 300, this.spriteSheet, 'Board.png');
+        const board = this.add.sprite(450, 300, this.spriteSheet, 'Board.png');
 		board.scaleX = .5;
         board.scaleY = .5;
+        console.log("board.width = " + board.width);
         
-        for(var i=0; i < this.selectedPieces.length; i++){
-
-            var piece = this.add.sprite(40, 400 - (i * 90), this.spriteSheet, this.selectedPieces[i]);
-            piece.scaleX = .5;
-            piece.scaleY = .5;
-            piece.name = this.selectedPieces[i];
-    
-            piece.setInteractive();
-            this.input.setDraggable(piece);
-        }
-
-        this.input.on('drag', function (pointer: any, gameObject: any, dragX: number, dragY: number) {
-
-        	gameObject.x = dragX;
-        	gameObject.y = dragY;
-
-        });
         
         const wheelShadow: any = this.add.sprite(85, 85, "spinnerShaddow");
         wheelShadow.scaleX = .5;
@@ -84,14 +74,53 @@ export default class PlayGame extends Phaser.Scene {
         this.cardCount = 0;
 
         
-        const deck = this.add.sprite(150, 100, this.spriteSheet, 'CardTop2.png').setInteractive();
+        const deck = this.add.sprite(280, 62, this.spriteSheet, 'CardTop1.png').setInteractive();
         deck.scaleX = .5;
         deck.scaleY = .5;
         deck.on("pointerdown", this.showCard, this);
-        deck.x = 300;
+        deck.x = 380;
         //this.showCard(this.WordPairs[5]);
 
+        for(var i=0; i < this.selectedPieces.length; i++){
+
+            var piece = this.add.image(40, 400 - (i * 90), this.spriteSheet, this.selectedPieces[i]);
+            piece.scaleX = .5;
+            piece.scaleY = .5;
+            piece.name = this.selectedPieces[i];
+
+            piece.depth = i;
+    
+            piece.setInteractive();
+            this.input.setDraggable(piece);
+        }
+        //this.input.on('pointerdown', this.startDrag,this);
+
+        this.input.on('dragstart', function (pointer, gameObject) {
+
+            this.pieceDepth = gameObject.depth;
+            console.log("this.pieceDepth = " + this.pieceDepth);
+
+            gameObject.depth = 100;
+    
+        });
+
+        this.input.on('dragend', function (pointer: any, gameObject: any) {
+
+            //console.log("this.pieceDepth = " + this.pieceDepth);
+            gameObject.depth = this.pieceDepth;
+            //this.pieceDepth = gameObject.depth;
+            console.log("this.pieceDepth = " + this.pieceDepth);
+    
+        });
+
+        this.input.on('drag', function (pointer: any, gameObject: any, dragX: number, dragY: number) {
+            gameObject.x = dragX;
+            gameObject.y = dragY;
+        });
+
+
     }
+
 
     showCard(){
 
@@ -126,12 +155,12 @@ export default class PlayGame extends Phaser.Scene {
             var theScale: number = .4;
 
 
-            const pic1: any = this.add.sprite(125, 130, 'FCD_Group1', pic1name);
+            const pic1: any = this.add.sprite(125, 130, 'FCD_Group2', pic1name);
             pic1.scaleX = theScale;
             pic1.scaleY = theScale;
 
 
-            const pic2: any = this.add.sprite(325, 130, 'FCD_Group1', pic2name);
+            const pic2: any = this.add.sprite(325, 130, 'FCD_Group2', pic2name);
             pic2.scaleX = theScale;
             pic2.scaleY = theScale;
 
@@ -143,6 +172,7 @@ export default class PlayGame extends Phaser.Scene {
             this.aCard = this.add.container(250, 175, [cardBack, pic1, pic2, text1, text2]);
 
             this.cardParts = [cardBack, pic1, pic2, text1, text2];
+            this.aCard.depth = 200;
 
         }
 

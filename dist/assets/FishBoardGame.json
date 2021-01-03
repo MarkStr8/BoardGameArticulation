@@ -1,0 +1,230 @@
+{
+	"textures": [
+		{
+			"image": "FishBoardGame.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1802,
+				"h": 1540
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Board.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1800,
+						"h": 1200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1800,
+						"h": 1200
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1800,
+						"h": 1200
+					}
+				},
+				{
+					"filename": "Board_Small.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 450,
+						"h": 300
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 450,
+						"h": 300
+					},
+					"frame": {
+						"x": 1,
+						"y": 1203,
+						"w": 450,
+						"h": 300
+					}
+				},
+				{
+					"filename": "CardTop1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 330,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 316,
+						"h": 206
+					},
+					"frame": {
+						"x": 453,
+						"y": 1203,
+						"w": 316,
+						"h": 206
+					}
+				},
+				{
+					"filename": "GP4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 133
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 4,
+						"w": 141,
+						"h": 128
+					},
+					"frame": {
+						"x": 453,
+						"y": 1411,
+						"w": 141,
+						"h": 128
+					}
+				},
+				{
+					"filename": "CardTop2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 330,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 316,
+						"h": 206
+					},
+					"frame": {
+						"x": 771,
+						"y": 1203,
+						"w": 316,
+						"h": 206
+					}
+				},
+				{
+					"filename": "CardTop3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 330,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 2,
+						"w": 316,
+						"h": 206
+					},
+					"frame": {
+						"x": 1089,
+						"y": 1203,
+						"w": 316,
+						"h": 206
+					}
+				},
+				{
+					"filename": "GP2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 133
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 2,
+						"w": 155,
+						"h": 131
+					},
+					"frame": {
+						"x": 1407,
+						"y": 1203,
+						"w": 155,
+						"h": 131
+					}
+				},
+				{
+					"filename": "GP5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 133
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 4,
+						"w": 179,
+						"h": 129
+					},
+					"frame": {
+						"x": 1564,
+						"y": 1203,
+						"w": 179,
+						"h": 129
+					}
+				},
+				{
+					"filename": "GP1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 133
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 3,
+						"w": 158,
+						"h": 130
+					},
+					"frame": {
+						"x": 1407,
+						"y": 1336,
+						"w": 158,
+						"h": 130
+					}
+				},
+				{
+					"filename": "GP3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 133
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 3,
+						"w": 151,
+						"h": 129
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1334,
+						"w": 151,
+						"h": 129
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:f01e0710343d036c2970b148cfc07cf8:4d2daeb3c3db122d1e8d1b0f73abe1c0:c216124c4193ceb1303bdb0f14c2b789$"
+	}
+}

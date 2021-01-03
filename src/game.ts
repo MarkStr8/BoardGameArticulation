@@ -18,12 +18,19 @@ export default class Demo extends Phaser.Scene
         this.load.multiatlas("MonkeyBoardGame", "assets/MonkeyBoardGame.json", "assets");
         this.load.multiatlas("EgyptBoardGame", "assets/EgyptBoardGame.json", "assets");
         this.load.multiatlas("DinosaurBoardGame", "assets/DinosaurBoardGame.json", "assets");
+        this.load.multiatlas("FishBoardGame", "assets/FishBoardGame.json", "assets");
         this.load.audio("SpinSound", "assets/SpinSound.mp3");
         this.load.image("spinner", "assets/spinner.png");
         this.load.image("spinnerShaddow", "assets/spinnerShaddow.png");
         this.load.image("arrow", "assets/arrow.png");
         this.load.image("whiteCard", "assets/whiteCard.png");
         this.load.image("Card", "assets/card.png");
+        this.load.image("CardBlankShaddow", "assets/CardBlankShaddow.png");
+        this.load.image("tabBlue", "assets/popover_tab_blue.png");
+        this.load.image("tabYellow", "assets/popover_tab_yellow.png");
+        this.load.image("tabRed", "assets/popover_tab_red.png");
+        this.load.image("tabOrange", "assets/popover_tab_orange.png");
+        this.load.image("tabGreen", "assets/popover_tab_green.png");
         //this.load.json("monkeyJson", "assets/MonkeyBoardGame.json");
         //this.load.image('libs', 'assets/libs.png');
         //this.load.glsl('bundle', 'assets/plasma-bundle.glsl.js');
@@ -61,7 +68,7 @@ export default class Demo extends Phaser.Scene
 const config = {
     type: Phaser.AUTO,
     backgroundColor: '#125555',
-    width: 800,
+    width: 900,
     height: 600,
     scene: [Demo, MenuScene, PlayGame],
     scale: {

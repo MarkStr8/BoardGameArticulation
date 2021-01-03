@@ -1,0 +1,230 @@
+{
+	"textures": [
+		{
+			"image": "SpaceBoardGame.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1890,
+				"h": 1573
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Board.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1800,
+						"h": 1200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 1800,
+						"h": 1199
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1800,
+						"h": 1199
+					}
+				},
+				{
+					"filename": "Board_Small.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 450,
+						"h": 300
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 450,
+						"h": 300
+					},
+					"frame": {
+						"x": 1,
+						"y": 1202,
+						"w": 450,
+						"h": 300
+					}
+				},
+				{
+					"filename": "Space_Cards-01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 330,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 316,
+						"h": 206
+					},
+					"frame": {
+						"x": 453,
+						"y": 1202,
+						"w": 316,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Space_Cards-02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 330,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 316,
+						"h": 206
+					},
+					"frame": {
+						"x": 771,
+						"y": 1202,
+						"w": 316,
+						"h": 206
+					}
+				},
+				{
+					"filename": "Space_Cards-03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 330,
+						"h": 210
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 316,
+						"h": 206
+					},
+					"frame": {
+						"x": 1089,
+						"y": 1202,
+						"w": 316,
+						"h": 206
+					}
+				},
+				{
+					"filename": "GP5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 14,
+						"w": 188,
+						"h": 176
+					},
+					"frame": {
+						"x": 1407,
+						"y": 1202,
+						"w": 188,
+						"h": 176
+					}
+				},
+				{
+					"filename": "GP4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 14,
+						"w": 176,
+						"h": 176
+					},
+					"frame": {
+						"x": 1597,
+						"y": 1202,
+						"w": 176,
+						"h": 176
+					}
+				},
+				{
+					"filename": "GP3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 6,
+						"w": 158,
+						"h": 192
+					},
+					"frame": {
+						"x": 1407,
+						"y": 1380,
+						"w": 158,
+						"h": 192
+					}
+				},
+				{
+					"filename": "PG1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 14,
+						"w": 174,
+						"h": 176
+					},
+					"frame": {
+						"x": 1567,
+						"y": 1380,
+						"w": 174,
+						"h": 176
+					}
+				},
+				{
+					"filename": "GP2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 15,
+						"w": 146,
+						"h": 174
+					},
+					"frame": {
+						"x": 1743,
+						"y": 1380,
+						"w": 146,
+						"h": 174
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:967eed378e31962339dab994c029ac25:0d3aaa024c0021526fdf21309a9968fc:cb641ee23e198ff20033505dcb83a443$"
+	}
+}
